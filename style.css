@@ -28,3 +28,16 @@ H1 a:active {
   text-decoration: none;
   color: black;
 }
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
