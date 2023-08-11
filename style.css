@@ -1,0 +1,9 @@
+html {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+}
+
+code {
+  background-color: #D3D3D3;
+}
