@@ -3,7 +3,6 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"os"
 	"sort"
 	"strings"
@@ -40,12 +39,12 @@ func createEntry(title string) {
 
 	filename := fmt.Sprintf("TIL/%s.html", title)
 
-	ioutil.WriteFile(filename, []byte(header), 0644)
+	os.WriteFile(filename, []byte(header), 0644)
 }
 
 func updateTILPage(title string) {
 	// Read the current TIL.html content
-	tilBytes, _ := ioutil.ReadFile("TIL.html")
+	tilBytes, _ := os.ReadFile("TIL.html")
 	tilContent := string(tilBytes)
 
 	// Fetch all current links and their corresponding dates
@@ -86,5 +85,5 @@ func updateTILPage(title string) {
 	}
 
 	newContent := preContent + postContent
-	ioutil.WriteFile("TIL.html", []byte(newContent), 0644)
+	os.WriteFile("TIL.html", []byte(newContent), 0644)
 }
