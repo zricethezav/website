@@ -1,9 +1,49 @@
 html {
-  max-width: 100ch;
+  max-width: 70ch;
   padding: 3em 1em;
   margin: auto;
+  /* font-family: monospace, monospace; */
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-size: 1em
 }
 
 code {
   background-color: #D3D3D3;
+}
+
+
+.company-list {
+  list-style-type: none;
+  /* Removes default list styling */
+  padding: 0;
+  /* Removes default padding */
+}
+
+.company-list li {
+  display: flex;
+  /* Aligns items in a row */
+  align-items: center;
+  /* Centers items vertically */
+  margin-bottom: 10px;
+  /* Adds space between list items */
+}
+
+.company-logo {
+  width: 50px;
+  /* Adjusts the size of the logo */
+  height: auto;
+  /* Maintains the aspect ratio */
+  margin-right: 10px;
+  /* Adds space between logo and name */
+}
+
+.company-name {
+  font-size: 1.2em;
+  /* Adjusts the size of the company name */
+}
+
+hr {
+  margin: 2em 0;
+  color: grey;
+  /* Adds space above and below the line */
 }

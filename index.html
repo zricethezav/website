@@ -2,15 +2,162 @@
 <head>
       <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<i><a href="index.html">Home</a> | <a href="resume.html">Resume</a></i>
-<hr>
+<i><a href="index.html">Home</a> | <a href="blog.html">Blog</a></i>
 
-<p>
- <img src="https://res.cloudinary.com/doqeieyc1/image/upload/q_auto:low/v1691778305/me_hc9bzc.png" alt="My Picture" width="100%" >
-
-
+<h1>Zach Rice</h1>
 <p>Find me:
 <br><a href="https://twitter.com/zricethezav">Twitter</a>
 <br><a href="https://linkedin.com/in/zricethezav">LinkedIn</a>
 <br><a href="https://github.com/zricethezav">GitHub</a>
+<br>
+<br>zricezrice[at]gmail[dot]com
 <p>
+<h2>Work Experience</h2>
+<ul class="company-list">
+      <li>
+          <img src="truffleLogo.png" alt="truffle" class="company-logo">
+          <span class="company-name"><b>Truffle Security Co.</b></span>
+      </li>
+      <u>DevRel/Sr. Software Engineer (2023-present)</u>
+      <p>
+      Currently managing the Truffle Security Co. community, including the 
+      TruffleHog Discord, Slack, and GitHub. Introduced an optimization that 
+      cut average scan times by 50% read more about that optimization in this 
+      blog post. Lead community events like the TruffleHog Detector Compeition 
+      which resulted in over 80 community PRs, active Discord, Slack, and GitHub
+      discussions, and landed TruffleHog on the GitHub Trending page for 
+      over a month. Participation in weekly All Hands meetings by presenting on 
+      community updates.
+      <hr>
+      
+      <li>
+          <img src="gitleaks.png" alt="gitleaks" class="company-logo">
+          <span class="company-name"><b>Gitleaks</b></span>
+      </li>
+      <u>Founder (2022-2023)</u>
+      <p>
+      Founded Gitleaks LLC, a bootstrapped company that provided commercial support for Gitleaks and a paid version of Gitleaks-Action.
+      Authored and maintained the Gitleaks open source project, a SAST tool for detecting secrets in git repos. 
+      Met with customers to discuss their needs and provide support. Customers included Fortune 500 companies, 
+      government agencies, and startups. Automated all the business logic with Stripe, Zapier, KeyGen, and GitHub Actions.
+      Created content for the Gitleaks blog, Twitter, and LinkedIn account. 
+      Operational costs kept below $200/month. Solid side hustle.
+      <p>
+      <i>Note: I continue to maintain Gitleaks as an open source project and made Gitleaks-Action free, 
+      but no longer provide commercial support.</i>
+      <hr>
+
+      <li>
+          <img src="gitlablogo.png" alt="gitlab" class="company-logo">
+          <span class="company-name"><b>GitLab</b></span>
+      </li>
+      <u>Senior Software Engineer (2020-2023)</u>
+      <p>
+      Specialized in Static Analysis at GitLab, contributing significantly to 
+      the development and enhancement of Static Application Security Testing (SAST), 
+      Secret Detection powered by Gitleaks, and Code Quality solutions for software repositories.
+      <p>Role involved rigorous management and updates of dependencies in GitLab's 
+      SAST and Secret Detection features, leveraging open source software for optimal performance and security compliance.
+      <p>
+      
+      Expertise in GitLab's Product Development Flow instrumental in efficiently delivering software, 
+      managing issues spanning analyzers, vendored templates, and GitLab's Rails monolith.
+      Creator of Gitleaks, a key component in GitLab's Secret Detection product, 
+      significantly contributing to the closing of major deals and addressing unplanned work including community contributions
+
+      <hr>
+
+      <li>
+          <img src="gannett.webp" alt="gannett" class="company-logo">
+          <span class="company-name"><b>Gannett/USA Today</b></span>
+      </li>
+      <u>Software Engineer (2019-2020)</u>
+      <p>
+      Developed and maintained a robust testing pipeline for Gannett's 
+      Fastly services using Golang and Terraform, enhancing CDN performance for the extensive USA TODAY NETWORK.
+      Implemented in-house Golang APIs and Slackbots for efficient Fastly purging, 
+      alongside writing complex VCL logic to support other teams in Fastly service development.
+      <p>
+      Oversaw one of the largest Fastly services, fronting over 100 websites within the USA TODAY NETWORK,
+      showcasing expertise in CDN optimization and management.
+      Managed Apigee Edge, employing a Terraform-based pipeline for systematic updates, 
+      and played a key role in reviewing PRs and advising on complex proxy logic. 
+      Eventually became a maintainer of the official Apigee Terraform provider.
+      <p>
+      Contributed to the construction of the Fastly CDN pipeline for 
+      over 100 web applications, utilizing Terraform, Docker, Golang, and Jenkins for 
+      automated deploys and testing.
+      Monitored system performance using New Relic, Splunk, and Sumo Logic, ensuring 
+      optimal operation and swift issue resolution.
+      <p>
+      Enhanced our application pipeline through the development of applications for 
+      tasks like container building and pushing to Artifactory, and secret management using Vault and Consul configurations.
+
+      <hr>
+
+      <li>
+          <img src="agrible.jpg" alt="agrible" class="company-logo">
+          <span class="company-name"><b>Agrible (Acquired by Nutrien)</b></span>
+      </li>
+      <u>Software Engineer (2015-2019)</u>
+
+      <p>
+      Implemented and tested modules covering crop growth, nutrient cycling, nutrient uptake, harvest date, and parameter estimation, enhancing the effectiveness of agricultural models.
+      Developed a weather ingestion system capable of integrating data from GFS, ECMWF, and HRRR models, improving the accuracy of agricultural predictions.
+      Backend development, focusing on aggregating model outputs to front-end products, utilizing Python, PostgreSQL, Redis, and RabbitMQ.
+
+
+      <p>
+  </ul>
+<hr>
+<i>See also: <a href="https://github.com/zricethezav">LinkedIn</a></i>
+<h2>Open Source</h2>
+<a href="https://github.com/gitleaks/gitleaks">Gitleaks</a> (Go)
+<br/>
+Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos. 
+Gitleaks is an easy-to-use, all-in-one solution for detecting secrets, past or present, in your code.
+Over 12M downloads on DockerHub, 14k stars on GitHub, 5M downloads on Github, and 630k brew installs.
+Gitleaks is used by the many companies, government agencies, universities, and startups.
+<p>
+<a href="https://github.com/zricethezav/h1domains">h1domains</a> (Python)
+<br/>
+Small script to pull all the domains from HackerOne's bug bounty program directory. Scheduled to run hourly on a Github-Actions.
+This list helps bug bounty hunters find new programs to hack on.
+<p>
+<a href="https://github.com/trufflesecurity/trufflehog">TruffleHog</a> (Go)
+<br/>
+Like Gitleaks, TruffleHog is a SAST tool for detecting secrets like passwords, api keys, 
+and tokens in git repos, filesystems, Slack messages, Jira tickets, GitHub comments, etc.
+TruffleHog is able to verify the liveliness of secrets by attempting to use the secret to 
+authenticate with the secret provider. This essentially eliminates false positives.
+<p>
+<a href="https://github.com/zricethezav/go-tdameritrade">Go-TDAmeritrade</a> (Go)
+<br/>
+Go client for the tdameritrade api. Helpful for building trading bots.
+<p>
+<i>See also: <a href="https://github.com/zricethezav">GitHub</a></i>
+
+<h2>Articles/Talks</h2>
+Blog: Hacktoberfest Winners [<a href="https://trufflesecurity.com/blog/announcing-the-trufflehog-hacktoberfest-2023-winners/">Truffle Security Co. Blog</a>]
+<p>
+Blog: Contributor Spotlight [<a href="https://trufflesecurity.com/blog/contributor-spotlight-richard-gomez/">Truffle Security Co. Blog</a>]
+<p>
+Blog: Hacktoberfest and Video [<a href="https://trufflesecurity.com/blog/hacktoberfest/">Truffle Security Co. Blog</a>]
+<p>
+Blog: Making TruffleHog Faster with Aho-Corasick [<a href="https://trufflesecurity.com/blog/making-trufflehog-faster-with-aho-corasick/">Truffle Security Co. Blog</a>]
+<p>
+Video: How to create a Detector [<a href="https://www.youtube.com/watch?v=8UJAy_dJuqU">YouTube</a>]
+<p>
+Video/Talk: All Things Open Talk [<a href="https://www.youtube.com/watch?v=6RcolMGyZ-8">YouTube</a>]
+<p>
+Blog: Finding Secrets with Regular Expressions [<a href="https://blog.gitleaks.io/finding-secrets-with-regular-expressions-d90493bb3784">Gitleaks Blog</a>]
+<p>
+Blog: Getting Started with Gitleaks-Action [<a href="https://blog.gitleaks.io/stop-leaking-secrets-getting-started-with-gitleaks-action-1-960de029853c">Gitleaks Blog</a>]
+<p>
+Patent: Adaptively generated program model [<a href="https://patents.google.com/patent/US20230305942A1/en?inventor=Zach+Rice">Google Patents</a>]
+
+<h2>Education</h2>
+UIUC BA Computer Engineering 2015
+
+
+
