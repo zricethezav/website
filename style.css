@@ -1,5 +1,5 @@
 html {
-  max-width: 70ch;
+  max-width: 80ch;
   padding: 3em 1em;
   margin: auto;
   /* font-family: monospace, monospace; */
@@ -10,6 +10,17 @@ html {
 code {
   background-color: #D3D3D3;
 }
+
+.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+.no-bullets li {
+  margin-bottom: 10px; /* Add space between list items */
+}
+
 
 
 .company-list {
