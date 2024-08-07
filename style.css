@@ -3,7 +3,11 @@ html {
   padding: 2em 1em;
   margin: auto;
   /* font-family: monospace, monospace; */
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   font-size: 1em
 }
+
+li {
+  list-style-type: none;
+}
+
 
